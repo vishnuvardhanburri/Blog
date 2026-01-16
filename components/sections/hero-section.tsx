@@ -25,7 +25,7 @@ const socialLinks = [
   },
   {
     name: "Portfolio",
-    href: "https://vishnunani.vercel.app",
+    href: "https://github.com/vishnuvardhanburri/vishnu-blog/",
     icon: Globe,
   },
 ]
@@ -55,7 +55,7 @@ export function HeroSection() {
       <motion.div
         initial={{ opacity: 0, x: 50 }}
         animate={{ opacity: 1, x: 0 }}
-        transition={{ delay: 0.3, duration: 0.6, ease: "easeOut" }}
+        transition={{ delay: 0.1, duration: 0.4, ease: "easeOut" }}
         className="absolute top-1/2 -translate-y-1/2 right-8 lg:right-16 hidden md:block"
       >
         <div className="relative w-[320px] h-[420px] lg:w-[380px] lg:h-[500px]">
@@ -139,13 +139,13 @@ export function HeroSection() {
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
+            transition={{ duration: 0.4, ease: "easeOut" }}
             className="max-w-3xl lg:max-w-xl"
           >
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
-              transition={{ delay: 0.2, duration: 0.5 }}
+              transition={{ delay: 0.1, duration: 0.3 }}
               className="inline-flex items-center gap-2 mb-6 px-5 py-2.5 rounded-full bg-gradient-to-r from-[#0a2540] to-[#0d3a5c] border border-[#1a5a8c] shadow-lg shadow-[#0a2540]/30 backdrop-blur-sm"
             >
               <span className="text-white font-bold text-sm tracking-wider uppercase">Top 3% Worldwide on Toptal</span>
@@ -161,7 +161,7 @@ export function HeroSection() {
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 0.4, duration: 0.5 }}
+              transition={{ delay: 0.2, duration: 0.3 }}
               className="text-lg sm:text-xl text-muted-foreground max-w-2xl mb-8 leading-relaxed"
             >
               Software Developer | Founder & Lead Developer – Xavira Tech Labs | Full-Stack Engineer | Vulnerability
@@ -171,7 +171,7 @@ export function HeroSection() {
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.6, duration: 0.5 }}
+              transition={{ delay: 0.3, duration: 0.3 }}
               className="flex flex-wrap items-center justify-center lg:justify-start gap-3"
             >
               {socialLinks.map((link) => (

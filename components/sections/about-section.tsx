@@ -14,7 +14,7 @@ export function AboutSection() {
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 40 }}
-          transition={{ duration: 0.6, ease: "easeOut" }}
+          transition={{ duration: 0.4, ease: "easeOut" }}
         >
           <h2
             className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-8 text-center text-foreground"
@@ -27,12 +27,12 @@ export function AboutSection() {
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.9 }}
-              transition={{ delay: 0.2, duration: 0.6 }}
+              transition={{ delay: 0.1, duration: 0.4 }}
               className="w-48 sm:w-56 aspect-[3/4] flex-shrink-0"
             >
               <div className="relative w-full h-full rounded-lg border-2 border-[#0a2540] dark:border-[#1a3a5c] overflow-hidden bg-card shadow-lg shadow-black/10">
                 <Image
-                  src="/images/image.png"
+                  src="/images/image-3.png"
                   alt="Vishnu Vardhan Burri speaking at a conference"
                   fill
                   className="object-cover object-top"

@@ -21,7 +21,7 @@ const socialLinks = [
   },
   {
     name: "Portfolio",
-    href: "https://vishnunani.vercel.app",
+    href: "https://github.com/vishnuvardhanburri/vishnu-blog/",
     icon: Globe,
   },
 ]
